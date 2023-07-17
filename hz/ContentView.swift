@@ -16,6 +16,10 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+            .buttonStyle()
+        }
+        Text("asdadssd")
     }
 }
 
@@ -24,3 +28,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

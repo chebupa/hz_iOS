@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		461C45492A631D9B009A81EB /* hz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461C45492A631D9B009A81EB /* hz_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hz_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461C454C2A631D9B009A81EB /* hzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hzApp.swift; sourceTree = "<group>"; };
 		461C454E2A631D9B009A81EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		461C45502A631D9B009A81EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461C45532A631D9B009A81EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		461C45592A631D9B009A81EB /* hzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461C45592A631D9B009A81EB /* hz_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hz_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461C455D2A631D9B009A81EB /* hzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hzTests.swift; sourceTree = "<group>"; };
-		461C45632A631D9B009A81EB /* hzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461C45632A631D9B009A81EB /* hz_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hz_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461C45672A631D9B009A81EB /* hzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hzUITests.swift; sourceTree = "<group>"; };
 		461C45692A631D9B009A81EB /* hzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hzUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		461C454A2A631D9B009A81EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				461C45492A631D9B009A81EB /* hz.app */,
-				461C45592A631D9B009A81EB /* hzTests.xctest */,
-				461C45632A631D9B009A81EB /* hzUITests.xctest */,
+				461C45492A631D9B009A81EB /* hz_iOS.app */,
+				461C45592A631D9B009A81EB /* hz_iOSTests.xctest */,
+				461C45632A631D9B009A81EB /* hz_iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		461C45482A631D9B009A81EB /* hz */ = {
+		461C45482A631D9B009A81EB /* hz_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461C456D2A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz" */;
+			buildConfigurationList = 461C456D2A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz_iOS" */;
 			buildPhases = (
 				461C45452A631D9B009A81EB /* Sources */,
 				461C45462A631D9B009A81EB /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = hz;
+			name = hz_iOS;
 			productName = hz;
-			productReference = 461C45492A631D9B009A81EB /* hz.app */;
+			productReference = 461C45492A631D9B009A81EB /* hz_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		461C45582A631D9B009A81EB /* hzTests */ = {
+		461C45582A631D9B009A81EB /* hz_iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461C45702A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hzTests" */;
+			buildConfigurationList = 461C45702A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz_iOSTests" */;
 			buildPhases = (
 				461C45552A631D9B009A81EB /* Sources */,
 				461C45562A631D9B009A81EB /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				461C455B2A631D9B009A81EB /* PBXTargetDependency */,
 			);
-			name = hzTests;
+			name = hz_iOSTests;
 			productName = hzTests;
-			productReference = 461C45592A631D9B009A81EB /* hzTests.xctest */;
+			productReference = 461C45592A631D9B009A81EB /* hz_iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		461C45622A631D9B009A81EB /* hzUITests */ = {
+		461C45622A631D9B009A81EB /* hz_iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461C45732A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hzUITests" */;
+			buildConfigurationList = 461C45732A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz_iOSUITests" */;
 			buildPhases = (
 				461C455F2A631D9B009A81EB /* Sources */,
 				461C45602A631D9B009A81EB /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				461C45652A631D9B009A81EB /* PBXTargetDependency */,
 			);
-			name = hzUITests;
+			name = hz_iOSUITests;
 			productName = hzUITests;
-			productReference = 461C45632A631D9B009A81EB /* hzUITests.xctest */;
+			productReference = 461C45632A631D9B009A81EB /* hz_iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 461C45442A631D9B009A81EB /* Build configuration list for PBXProject "hz" */;
+			buildConfigurationList = 461C45442A631D9B009A81EB /* Build configuration list for PBXProject "hz_iOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				461C45482A631D9B009A81EB /* hz */,
-				461C45582A631D9B009A81EB /* hzTests */,
-				461C45622A631D9B009A81EB /* hzUITests */,
+				461C45482A631D9B009A81EB /* hz_iOS */,
+				461C45582A631D9B009A81EB /* hz_iOSTests */,
+				461C45622A631D9B009A81EB /* hz_iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		461C455B2A631D9B009A81EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461C45482A631D9B009A81EB /* hz */;
+			target = 461C45482A631D9B009A81EB /* hz_iOS */;
 			targetProxy = 461C455A2A631D9B009A81EB /* PBXContainerItemProxy */;
 		};
 		461C45652A631D9B009A81EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461C45482A631D9B009A81EB /* hz */;
+			target = 461C45482A631D9B009A81EB /* hz_iOS */;
 			targetProxy = 461C45642A631D9B009A81EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hz_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hz_iOS";
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hz_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hz_iOS";
 			};
 			name = Release;
 		};
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		461C45442A631D9B009A81EB /* Build configuration list for PBXProject "hz" */ = {
+		461C45442A631D9B009A81EB /* Build configuration list for PBXProject "hz_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461C456B2A631D9B009A81EB /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461C456D2A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz" */ = {
+		461C456D2A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461C456E2A631D9B009A81EB /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461C45702A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hzTests" */ = {
+		461C45702A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz_iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461C45712A631D9B009A81EB /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461C45732A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hzUITests" */ = {
+		461C45732A631D9B009A81EB /* Build configuration list for PBXNativeTarget "hz_iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				461C45742A631D9B009A81EB /* Debug */,
