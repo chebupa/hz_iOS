@@ -9,17 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        HStack {
+            VStack {
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+                    Text("aasd")
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+            }
+            VStack {
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+                Rectangle()
+                    .cornerRadius(15)
+                    .padding(10)
+            }
         }
-        .padding()
-        Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-            .buttonStyle()
-        }
-        Text("asdadssd")
+        .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+        .padding(10)
     }
 }
 
@@ -28,4 +51,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
 
